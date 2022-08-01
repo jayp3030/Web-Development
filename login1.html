@@ -1,0 +1,106 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login1.xyz</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            
+        }
+        body{
+            background: url(img/index.jpg) no-repeat center center/cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .loginbox h1{
+            float: left;
+            margin-bottom: 40px;
+            font-size: 40px;
+            border-bottom: 3px solid rgb(0, 171, 26);
+            padding: 5px 0px;
+            color: rgb(255, 187, 187);
+            
+        }
+        .tbox{
+            width: 100%;
+            overflow: hidden;
+            font-size: 25px;
+            padding: 8px 0px;
+            margin: 8px 0px;
+            border-bottom: 1px solid rgb(0, 171, 26);
+        }
+        input{
+            border: none;
+            outline: none;
+            background: none;
+            font-size: 20px;
+            color: white;
+            margin-bottom: 5px;
+            width: 80%;
+            /* float: left; */
+            margin: 0 5px;
+            
+        }
+        a{
+            text-decoration: none;
+            color: rgba(240, 255, 255, 0.628);
+            font-size: 15px;
+            margin-left:  5px;
+            margin-top: 5px;
+        }
+        .btn{
+            width: 100%;
+            background: none;
+            color: antiquewhite;
+            font-size: 20px;
+            margin-top: 10px;
+            padding: 10px 0px;
+            border: 2px solid wheat;
+            cursor: pointer;
+        }
+        .btn:hover{
+            color: black;
+            border: 2px solid black;
+            background: white;
+            font-family: sans-serif;
+        }
+        .frt{
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+        
+       
+        
+    </style>
+</head>
+
+<body>
+    <div class="loginbox">
+        <h1>Login</h1>
+        <div class="tbox">
+            <!-- <img src="img/username.png" width="30px" height="30px"> -->
+         <input type="text" placeholder="Username">
+        </div>
+        <div class="tbox">
+            <!-- <img src="img/password.png" width="30px" height="30px"> -->
+         <input type="password" placeholder="Password">
+        </div>
+        <div class="frt">
+            <a href="#">Forgot Password ?</a>
+        </div>
+        <div>
+            <button class="btn">Sign In</button>
+        </div>
+        
+
+    </div>
+
+</body>
+
+</html>

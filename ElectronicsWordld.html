@@ -1,0 +1,117 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronics World</title>
+    <link href="https://fonts.googleapis.com/css2?family=Arima&family=Edu+VIC+WA+NT+Beginner&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arima&family=Edu+VIC+WA+NT+Beginner&family=Mingzat&display=swap"
+        rel="stylesheet">
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url(img/haier2.jpg);
+        font-family: 'Mingzat', sans-serif;
+        height: 100vh;
+        width: 95vw;
+
+
+    }
+
+    .left {
+        position: absolute;
+        top: 115px;
+        left: 98px;
+        display: inline-block;
+    }
+
+
+    .left div {
+        font-size: 42px;
+        font-family: 'Arima', cursive;
+        text-align: center;
+        font-weight: bolder;
+        color: hsl(240, 98%, 81%);
+    }
+
+    .mid {
+
+        display: block;
+        width: 43%;
+        margin: 1px auto;
+
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: 30px;
+        top: 27px;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: aliceblue;
+        text-decoration: none;
+        padding: 10px 30px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: rgb(44, 111, 155);
+    }
+
+    .btn {
+        color: white;
+        background-color: black;
+        font-size: 15px;
+
+
+    }
+
+    .btn:hover {
+
+        color: blue;
+        cursor: pointer;
+
+    }
+</style>
+
+<body>
+    <header>
+        <div class="left">
+
+            <div>Electronics World</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About Us</a></li>
+                <!-- <li><a href="#">Contact Us</a></li> -->
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">
+                Contact Us
+            </button>
+        </div>
+    </header>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+        .box{
+            background-color: rgb(51, 252, 51);
+            color:black;
+            font-size: 50px;
+            text-align: center;
+            display: none;
+        }
+        @media only screen and (max-width:300px){
+            #box1{
+                display: block;
+            }
+
+        }
+        @media only screen and (min-width:301px) and (max-width:600px){
+            #box2{
+                display: block;
+                background-color: aqua;
+            }
+
+        }
+        @media only screen and (min-width:601px) and (max-width:900px){
+            #box3{
+                display: block;
+                background-color: blueviolet;
+            }
+
+        }
+        @media only screen and (min-width:901px) and (max-width:1200px){
+            #box4{
+                display: block;
+                background-color: tomato;
+                color: aliceblue;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box1">Lorem, ipsum dolor.</div>
+    <div class="box" id="box2">Lorem ipsum dolor sit.</div>
+    <div class="box" id="box3">Lorem ipsum dolor sit amet.</div>
+    <div class="box" id="box4">Lorem ipsum dolor sit amet consectetur.</div>
+</body>
+</html>
